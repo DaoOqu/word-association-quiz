@@ -20,18 +20,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-Install dependencies
+Install dependencies using
+### `npm install`
 
 Open two instances of your preferred terminal and run both scripts in order:
 
 ### `npm run start:backend`
 
-Retrieves results from the API request onto local port 8000 where the following 'frontend' script uses to gather respective data for the quiz.
-This protects our API key from being injected and seen in the source code.
+This protects our API key from being injected and seen in the source code by retrieving results from the API request onto local port 8000 where the following 'frontend' script uses to gather respective data for the quiz.
 
 ### `npm run start:frontend`
 
-Runs the app in the development mode.\
+Runs the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### `CTRL + C` 
